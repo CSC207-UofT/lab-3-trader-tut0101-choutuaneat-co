@@ -11,31 +11,31 @@ public class DeliveryTest {
         d = new Delivery("item", "John", "2021/09/27");
     }
 
-    @Test
+    @Test(timeout = 50)
     public void testGetPrice(){
        int price = d.getPrice();
        assertEquals(0, price);
     }
 
-    @Test
+    @Test(timeout = 50)
     public void testSound(){
         String sound = d.sound();
         assertEquals("WUHUUUUUUUUUU", sound);
     }
 
-    @Test
+    @Test(timeout = 50)
     public void testGetDate(){
         String date = d.getDate();
         assertEquals( "2021/09/27", date);
     }
 
-    @Test
+    @Test(timeout = 50)
     public void testGetItem(){
         String item = d.getItem();
         assertEquals("item", item);
     }
 
-    @Test
+    @Test(timeout = 50)
     public void testGetDeliver_name(){
         String name = d.getDeliver_name();
         assertEquals("John", name);
