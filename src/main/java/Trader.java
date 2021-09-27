@@ -97,6 +97,7 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
+                new Wolf(),
                 new Delivery("item", "John", "2021/09/27")
         );
 
