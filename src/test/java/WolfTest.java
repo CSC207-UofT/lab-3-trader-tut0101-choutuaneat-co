@@ -28,8 +28,8 @@ public class WolfTest {
         assertEquals(1, n.getMaxSpeed());
     }
 
-//    @Test(timeout = 50)
-//    public void TestGetPrice() {
-//        assertEquals(20, n.getPrice());
-//    }
+    @Test(timeout = 50)
+    public void TestGetPrice() {
+        assertEquals(20, n.getPrice());
+    }
 }
