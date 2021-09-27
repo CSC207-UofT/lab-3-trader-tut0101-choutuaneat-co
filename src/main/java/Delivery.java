@@ -1,4 +1,4 @@
-public class Delivery {
+public class Delivery implements Domesticatable, Tradable{
 
     private String item;
     private String deliver_name;
@@ -7,6 +7,13 @@ public class Delivery {
         this.item = item;
         this.deliver_name = deliver_name;
         this.date = date;
+    }
+
+    public int getPrice(){
+        return 0;
+    }
+    public String sound(){
+        return "WUHUUUUUUUUUU";
     }
 
     public String getDate(){
