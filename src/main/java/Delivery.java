@@ -8,10 +8,11 @@ public class Delivery implements Domesticatable, Tradable{
         this.deliver_name = deliver_name;
         this.date = date;
     }
-
+    @Override
     public int getPrice(){
         return 0;
     }
+    @Override
     public String sound(){
         return "WUHUUUUUUUUUU";
     }
