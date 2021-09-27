@@ -97,9 +97,14 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
+        Yuxuan-Yang-Maggie
                 new Horse(),
-                new Task2()
+                new Task2(),
                 // TODO: Add Tradable objects here!
+
+                new Wolf(),
+                new Delivery("item", "John", "2021/09/27")
+        master
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
