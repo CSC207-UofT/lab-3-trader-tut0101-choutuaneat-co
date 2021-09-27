@@ -95,11 +95,14 @@ public class Trader {
          */
         List<Tradable> all_items = Arrays.asList(
                 new Horse(),
-                new Horse(),
-                new Horse(),
-                new Banji(),
+            
+                new Task2(),
+                // TODO: Add Tradable objects here!
+
                 new Wolf(),
-                new Delivery("item", "John", "2021/09/27"),
+                new Delivery("item", "John", "2021/09/27")
+
+                new Banji(),
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
