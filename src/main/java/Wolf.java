@@ -11,12 +11,12 @@ public class Wolf implements Tradable, Drivable {
 
     @Override
     public void upgradeSpeed() {
-        this.maxSpeed += 2;
+        this.maxSpeed++;
     }
 
     @Override
     public void downgradeSpeed() {
-        this.maxSpeed -= 2;
+        this.maxSpeed--;
     }
 
     @Override

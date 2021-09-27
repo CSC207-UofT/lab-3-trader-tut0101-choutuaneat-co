@@ -19,13 +19,13 @@ public class WolfTest {
     @Test(timeout = 50)
     public void TestUpgradeSpeed() {
         n.upgradeSpeed();
-        assertEquals(3, n.getMaxSpeed());
+        assertEquals(2, n.getMaxSpeed());
     }
 
     @Test(timeout = 50)
     public void TestDowngradeSpeed() {
         n.downgradeSpeed();
-        assertEquals(1, n.getMaxSpeed());
+        assertEquals(0, n.getMaxSpeed());
     }
 
     @Test(timeout = 50)
